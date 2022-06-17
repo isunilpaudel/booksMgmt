@@ -95,18 +95,19 @@
             id="subject"
           >
             <option selected>Select Subject</option>
-            <option value="1">History</option>
-            <option value="2">Politics</option>
-            <option value="3">Literature</option>
-            <option value="2">Economics</option>
-            <option value="3">Other</option>
+            <option value="Information Tech.">Information Tech.</option>
+            <option value="History">History</option>
+            <option value="Politics">Politics</option>
+            <option value="Literature">Literature</option>
+            <option value="Economics">Economics</option>
+            <option value="Other">Other</option>
           </select>
         </div>
       </div>
 
       <!-- Availability -->
       <div class="mb-3 row">
-        <label for="Availability" class="col-sm-2 col-form-label"
+        <label for="availability" class="col-sm-2 col-form-label"
           >Availability</label
         >
         <div class="col-md-3">
@@ -114,8 +115,8 @@
             <input
               class="form-check-input"
               type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault1"
+              name="availability"
+              value="yes"
             />
             <label class="form-check-label" for="flexRadioDefault1">
               Yes
@@ -125,11 +126,21 @@
             <input
               class="form-check-input"
               type="radio"
-              name="flexRadioDefault"
-              id="flexRadioDefault2"
-              checked
+              name="availability"
+              value="no"
             />
             <label class="form-check-label" for="flexRadioDefault2"> No </label>
+          </div>
+          <div class="form-check col-sm-2">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="availability"
+              value="Not Confirmed"
+            />
+            <label class="form-check-label" for="flexRadioDefault3">
+              Not confirmed
+            </label>
           </div>
         </div>
       </div>
@@ -156,6 +167,11 @@
             Save Book
           </button>
         </div>
+
+        <!-- Show books -->
+        <form action="http://127.0.0.1:5500/index.html">
+          <input type="submit" value="Show Books" />
+        </form>
       </div>
     </div>
 

@@ -1,0 +1,54 @@
+{
+  "books": [
+    {
+      "title": "Phoenix Project",
+      "writer": "Gene Kim",
+      "publisher": "DevOps Handbook",
+      "isbn": "978-5269",
+      "subject": "1",
+      "numPages": "431",
+      "availability": "yes",
+      "id": 1
+    },
+    {
+      "title": "House of Scorpion",
+      "writer": "Nancy Farmer",
+      "publisher": "O'lanso",
+      "isbn": "439-577",
+      "subject": "4",
+      "numPages": "235",
+      "availability": "no",
+      "id": 2
+    },
+    {
+      "title": "Light as a Feather",
+      "writer": "Arlow neustads",
+      "publisher": "Wesley",
+      "isbn": "859-9652",
+      "subject": "Literature",
+      "numPages": "125",
+      "availability": "notConfirmed",
+      "id": 3
+    },
+    {
+      "title": "Intro to Java",
+      "writer": "John Doe",
+      "publisher": "Mike Huddle",
+      "isbn": "458-9653",
+      "subject": "Information Tech.",
+      "numPages": "526",
+      "availability": "Not Confirmed",
+      "id": 4
+    },
+    {
+      "title": "The road to React",
+      "writer": "Robin Wieruch",
+      "publisher": "React IT and React Hooks",
+      "isbn": "859-9623",
+      "subject": "Information Tech.",
+      "numPages": "365",
+      "availability": "yes",
+      "id": 5
+    }
+  ]
+}
